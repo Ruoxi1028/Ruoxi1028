@@ -20,15 +20,8 @@ jobs:
 
           user: Ruoxi1028
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, community, repositories, metadata
           config_timezone: Asia/Shanghai
-
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
 
           plugin_calendar: yes
           plugin_calendar_limit: 1
